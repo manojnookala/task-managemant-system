@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Task Managment System</title>
+    </head>
+    <body>
+        <ul>
+            <li *ngFor="let task of tasks">
+              {{ task.title }} - {{ task.description }} - {{ task.status }}
+            </li>
+          </ul>
+          
+    </body>
+</html>

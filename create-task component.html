@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Task Managment System</title>
+    </head>
+    <body>
+        <form (submit)="onSubmit()">
+            <input type="text" [(ngModel)]="newTask.title" placeholder="Title" required>
+            <input type="text" [(ngModel)]="newTask.description" placeholder="Description">
+            <input type="text" [(ngModel)]="newTask.status" placeholder="Status" required>
+            <button type="submit">Add Task</button>
+          </form>
+          
+    </body>
+</html>
